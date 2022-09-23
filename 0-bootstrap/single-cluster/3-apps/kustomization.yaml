@@ -51,7 +51,7 @@ patches:
   patch: |-
     - op: add
       path: /spec/source/repoURL
-      value: ${GIT_BASEURL}/${GIT_ORG}/${GIT_GITOPS_APPLICATIONS}
+      value: https://github.com/sko-cp4i/multi-tenancy-gitops-apps.git
     - op: add
       path: /spec/source/targetRevision
       value: master
